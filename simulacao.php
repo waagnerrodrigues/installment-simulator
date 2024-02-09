@@ -28,6 +28,7 @@
             
             echo "</table>";
         ?>
+        <button type="submit"><a href="index.html" style="color: white; text-decoration: none;">Voltar para simulação!</a></button>
     </main>
 </body>
 </html>

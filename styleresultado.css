@@ -5,13 +5,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0; /* Cor de fundo para diferenciar da área centralizada */
+    background-color: #f0f0f0;
 }
 
 main {
     text-align: center;
-    width: 600px; /* Largura definida para 300px */
-    max-width: 100%; /* Garante que não ultrapasse 100% da largura da tela */
+    width: 600px;
+    max-width: 100%; 
 }
 
 h1 {
@@ -24,8 +24,8 @@ h1 {
 p {
     font-size: 22px;
     border: 1px solid black;
-    margin-top: -22px; /* Margem superior negativa */
-    margin-bottom: -21px; /* Margem inferior negativa */
+    margin-top: -22px;
+    margin-bottom: -21px;
     padding: 10px;
 }
 
@@ -48,4 +48,19 @@ th, td {
 th {
     background-color: green;
     color: white;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
 }
