@@ -18,8 +18,10 @@
     <main>
         <div class="box">
             <h1>SIMULADOR!</h1>
-            <input type="number" id="numero" name="numero" step="0.01" placeholder="Digite o valor que deseja simular!" required>
-            <button class="main-button" type="submit">SIMULAR</button>
+            <form action="simulacao.php" method="get">
+                <input type="number" id="numero" name="numero" step="0.01" placeholder="Digite o valor que deseja simular!" required>
+                <button class="main-button" type="submit">SIMULAR</button>
+            </form>
         </div>
         <div class="support-link">
             <a href="whatsapp://send?phone=SEU_NUMERO_DE_TELEFONE&text=Olá,%20gostaria%20de%20falar%20com%20o%20suporte" target="_blank">

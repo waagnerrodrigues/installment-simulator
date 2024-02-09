@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo para diferenciar da área centralizada */
+}
+
+main {
+    text-align: center;
+    width: 600px; /* Largura definida para 300px */
+    max-width: 100%; /* Garante que não ultrapasse 100% da largura da tela */
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+    border: 1px solid black;
+    margin-top: -22px; /* Margem superior negativa */
+    margin-bottom: -21px; /* Margem inferior negativa */
+    padding: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
